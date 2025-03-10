@@ -1,0 +1,1 @@
+{"name":"Local: ssss","url":"c:\\Users\\BIT\\OneDrive\\Desktop\\contest\\ssss.cpp","tests":[{"id":1727244324476,"input":"5\naba\ncb\ner\ncf\nmmm\nmmm\ncontest\ntest\ncde\nabcefg","output":"4\n4\n3\n7\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\BIT\\OneDrive\\Desktop\\contest\\ssss.cpp","group":"local","local":true}

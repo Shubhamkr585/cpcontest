@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Website</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .parallax {
+      /* The image used */
+      background-image: url('https://via.placeholder.com/1920x1080');
+
+      /* Full height */
+      height: 100vh;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .content {
+      height: 100vh;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parallax"></div>
+
+  <div class="content">
+    <p>Welcome to the Parallax Website!</p>
+  </div>
+
+  <div class="parallax"></div>
+
+</body>
+</html>
