@@ -37,4 +37,5 @@ class Solution {
         string s="IIIDIDDD";
         Solution obj;
         cout<<obj.smallestNumber(s)<<endl;
+        return 0;
     }
