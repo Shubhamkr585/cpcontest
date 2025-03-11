@@ -16,17 +16,20 @@ void solve(){
     REP(i, size) cin >> b[i];
     sort(all(b), greater<ll>());
     ll sum1=0,sum2=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<2*n;i+=2){
         sum1+=b[i];
-        sum2+=b[n+i];
+        sum2+=b[i+1];
     }
+    sum1-=b[0];
     
-    ll val=b[0]+sum1-sum2;
+   
+    ll b1=b[0]+sum2-sum1;
     ll a1=b[0];
-    b[0]=val;
+    b[0]=b1;
+    
     cout<<a1<<" ";
-    for(int i=0;i<n;i++){
-        cout<<b[i]<<" "<<b[n+i]<<" ";
+    for(int i=0;i<2*n;i++){
+        cout<<b[i]<<" ";
     }
     cout<<endl;
     
